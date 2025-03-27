@@ -38,3 +38,24 @@ table {
   tfoot td {
     font-weight: bold;
   }
+
+  .ingredientes {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .ingredientes li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .ingredientes li img {
+    margin-right: 10px;       
+    width: 30px;              
+    height: 30px;             
+}
+  .menu {
+    display: inline;
+    list-style-type: none;
+  }
