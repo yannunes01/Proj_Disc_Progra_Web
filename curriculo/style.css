@@ -1,4 +1,56 @@
-img {
-    display: flex;
-    align-items: center;
-}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 30px;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .foto {
+      text-align: center;
+    }
+
+    .foto img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #333;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background-color: #ccc;
+      margin: 20px 0;
+    }
+
+    .resumo {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 5px;
+    }
+
+    .info {
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
