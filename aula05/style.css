@@ -1,0 +1,27 @@
+
+
+
+div {
+    display: flex;
+    margin: 0 auto;
+    padding: 100px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid blue;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1000ms;
+}
+
+button:hover {
+    color: red;
+    background-color: black;
+}
