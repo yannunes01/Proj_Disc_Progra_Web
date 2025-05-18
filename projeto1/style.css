@@ -1,10 +1,12 @@
+
 nav {
     text-align:end;
 }
 
 .navegador {
     margin: 2em;
-    border: 2px solid #000;
+    
+    border: 1px solid #1365FF;
     padding: 6px;
     width: auto;
     text-decoration-line: none;
@@ -13,13 +15,21 @@ nav {
     border-radius: 10px;
 }
 
+.navegador {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 .navegador:hover {
-    background-color: #000;
+    background-color: #1365FF;
     color: #fff;
     
 }
 
 header {
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
     margin-top: 2em ;
     border: 2px solid #000;
     border-radius: 30px;
@@ -29,8 +39,54 @@ header {
 div {
     text-align: center;
 }
-img {
+img{
     margin-top: 2em;
     width: 150px;
     border-radius: 50%;
+    border: 2px solid #000;
+    border-style:  double;
 }
+
+.projeto {
+    
+    text-align: center;
+    
+}
+
+.projeto {
+    border: solid 1px;
+    border-radius: 10px;
+}
+.projeto img {
+
+    width: 500px;
+    border-radius: 10px;
+    border: solid;
+}
+
+h2 {
+    text-align: center;
+}
+
+.footer {
+    
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.redes-sociais {
+    margin: 10px 0;
+}
+
+.icone-rede {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    transition: transform 0.2s;
+}
+
+.icone-rede:hover {
+    transform: scale(1.2); 
+}
+ 
