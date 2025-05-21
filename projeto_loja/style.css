@@ -1,0 +1,111 @@
+.header {
+    width: 100%;
+    padding: 30px 0;
+   /* border: solid 1px red;*/
+    display: flex;           
+    justify-content: center;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;               
+    color: #333;             
+}
+
+.logo {
+    width: 60px;             
+    height: auto;            
+    border-radius: 10px;     
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    background-color: red; 
+    margin: 10px 0;        
+}
+
+.vazio{
+    display: inline-block;
+
+    width: 9em;
+    height: 50px;
+}
+
+.texto-modelo{
+    display: inline;
+    font-size: 30px;
+}
+
+.container{
+    padding-top: 5em;
+    display: flex;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+.div-descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.descricao{
+    display: inline;
+}
+
+.preco {
+    font-weight: bold;
+    color: #d9534f;
+    font-size: 1.2em;
+}
+
+.botao-comprar{
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #006400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.botao-comprar:hover {
+    background-color: #228B22;
+}
+
+.footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+}
