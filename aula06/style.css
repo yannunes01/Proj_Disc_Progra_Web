@@ -1,0 +1,20 @@
+.esconde {
+    display: none;
+}
+
+a {
+    background: #ddd;
+    padding: 16px;
+    text-decoration: none;
+    width: 160px;
+    height: 36px;
+    margin:20px;
+}
+
+.inlineblock {
+    display: inline-block;
+}
+
+.divdesign {
+    margin-bottom:30px;
+}

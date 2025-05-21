@@ -1,0 +1,34 @@
+header{
+    /*border: solid 1px red;*/
+    text-align: center;
+    font-size: 3em;
+}
+
+
+div{
+    border: solid 1px red;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    background-color: black;
+    padding-left:1em ;
+    padding-bottom:1em ;
+}
+
+h2{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+
+span{
+    color: chocolate;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 1em; 
+    background-color: chocolate;
+}

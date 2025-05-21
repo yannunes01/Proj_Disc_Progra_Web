@@ -74,7 +74,7 @@ hr{
 }
 
 .descricao{
-    display: inline;
+    display: inline-block;
 }
 
 .preco {
