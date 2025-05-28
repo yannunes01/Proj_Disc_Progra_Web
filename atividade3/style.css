@@ -6,19 +6,28 @@ header{
 
 
 div{
-    border: solid 1px red;
-    margin-top: 2em;
-    margin-left: 3em;
-    margin-right: 3em;
+    
+    margin: 2em 3em 0 3em;
     background-color: black;
     padding-left:1em ;
     padding-bottom:1em ;
+    border: none;
+    border-radius: 10px;
+}
+
+img{
+    margin-left: 50%;
+    margin-top: -100px;
+    border-radius: 50%;
 }
 
 h2{
+    
+    margin: 0;
     color: aliceblue;
 }
 p{
+    
     color: aliceblue;
 }
 
@@ -27,8 +36,11 @@ span{
 }
 
 button {
+    display: block;
     border-radius: 5px;
     font-size: 15px;
     padding: 1em; 
     background-color: chocolate;
+    border: none;
+    
 }
