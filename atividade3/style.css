@@ -4,6 +4,9 @@ header{
     font-size: 3em;
 }
 
+.divsuperior{
+    display: flex;
+}
 
 div{
     
@@ -16,8 +19,6 @@ div{
 }
 
 img{
-    margin-left: 50%;
-    margin-top: -100px;
     border-radius: 50%;
 }
 
